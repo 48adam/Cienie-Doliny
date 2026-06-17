@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda38b18e6fc5064c8c7195f512c5d19, type: 3}
+  m_Name: New Item
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  itemName: HealthMushroom
+  description: Restores 1 health
+  icon: {fileID: 6600148799353153194, guid: c611bdc015747424188d867c81d9a775, type: 3}
+  itemType: 0
+  canStack: 1
+  maxStackAmount: 10
+  buyPrice: 10
+  sellPrice: 5
+  canUse: 1
+  consumeOnUse: 1
+  effectType: 1
+  effectAmount: 1
